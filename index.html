@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Simple Photo Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>My Pet Photo Gallery</h1>
+    <p>Welcome to a collection of some of my favorite photos of my pets. Click on the categories below to see some cool photos!</p>
+  </header>
+
+  <main>
+    <h2>Categories</h2>
+    <div class="categories">
+      <button onclick="showCategory('mammals')">Mammals</button>
+      <button onclick="showCategory('reptiles-birds')">Reptiles/Birds</button>
+      <button onclick="showCategory('invertebrates')">Invertebrates</button>
+      <button onclick="showCategory('honorable-mentions')">Honorable Mentions</button>
+    </div>
+    <div id="mammals" class="gallery hidden">
+      <h3>Mammals</h3>
+      <div class="sub-gallery">
+        <a href="Susie.jpg">
+          <img src="Susie.jpg" alt="Susie">
+        </a>
+        <p>Susie, my boxer mix</p>
+        <a href="Susie2.jpg">
+          <img src="Susie2.jpg" alt="Susie">
+        </a>
+        <p>Susie</p>
+        <a href="Susie3.jpg">
+          <img src="Susie3.jpg" alt="Susie">
+        </a>
+        <p>Susie</p>
+        <a href="Susie4.jpg">
+          <img src="Susie4.jpg" alt="Susie">
+        </a>
+        <p>Susie</p>
+        <a href="SusieandMissy.jpg">
+          <img src="SusieandMissy.jpg" alt="Susie and Missy">
+        </a>
+        <p>Susie and Missy</p>
+        <a href="Susiegirl.jpg">
+          <img src="Susiegirl.jpg" alt="Susie">
+        </a>
+        <p>Susie</p>
+        <a href="Smidgie.jpg">
+          <img src="Smidgie.jpg" alt="Smidgie">
+        </a>
+        <p>Smidgie, my cat</p>
+        <a href="Smidgie1.jpg">
+          <img src="Smidgie1.jpg" alt="Smidgie">
+        </a>
+        <p>Smidgie</p>
+        <a href="Smidgie2.jpg">
+          <img src="Smidgie2.jpg" alt="Smidgie">
+        </a>
+        <p>Smidgie</p>
+        <a href="Smidgie3.jpg">
+          <img src="Smidgie3.jpg" alt="Smidgie">
+        </a>
+        <p>Smidgie</p>
+        <a href="Smidgie4.jpg">
+          <img src="Smidgie4.jpg" alt="Smidgie">
+        </a>
+        <p>Smidgie</p>
+        <a href="Smidgieandme.jpg">
+          <img src="Smidgieandme.jpg" alt="Smidgie and Me">
+        </a>
+        <p>Smidgie and me</p>
+        <a href="Smidgiefist.png">
+          <img src="Smidgiefist.png" alt="Smidgie Fist">
+        </a>
+        <p>Smidgie making a fist</p>
+        <a href="Smidgieonbag.jpg">
+          <img src="Smidgieonbag.jpg" alt="Smidgie on Bag">
+        </a>
+        <p>Smidgie laying on a bag</p>
+        <a href="Smidgieonfoam.heic">
+          <img src="Smidgieonfoam.heic" alt="Smidgie on Foam">
+        </a>
+        <p>Smidgie</p>
+        <a href="Snowball.jpg">
+          <img src="Snowball.jpg" alt="Snowball">
+        </a>
+        <p>Snowball, my goldendoodle mix</p>
+        <a href="Snowball2.jpg">
+          <img src="Snowball2.jpg" alt="Snowball">
+        </a>
+        <p>Snowball</p>
+        <a href="Snowball3.jpg">
+          <img src="Snowball3.jpg" alt="Snowball">
+        </a>
+        <p>Snowball</p>
+        <a href="Snowball4.jpg">
+          <img src="Snowball4.jpg" alt="Snowball">
+        </a>
+        <p>Snowball</p>
+        <a href="Snowball5.jpg">
+          <img src="Snowball5.jpg" alt="Snowball">
+        </a>
+        <p>Snowball</p>
+        <a href="Snowballpaw.jpg">
+          <img src="Snowballpaw.jpg" alt="Snowball Paw">
+        </a>
+        <p>Snowball giving me her paw</p>
+        <a href="MeandSmidgie.jpg">
+          <img src="MeandSmidgie.jpg" alt="Me and Smidgie">
+        </a>
+        <p>Smidgie and me</p>
+        <a href="Missy.jpg">
+          <img src="Missy.jpg" alt="Missy">
+        </a>
+        <p>Missy, my chiweenie mix</p>
+        <a href="Missy0.jpg">
+          <img src="Missy0.jpg" alt="Missy">
+        </a>
+        <p>Missy</p>
+        <a href="Missy2.jpg">
+          <img src="Missy2.jpg" alt="Missy">
+        </a>
+        <p>Missy</p>
+        <a href="Missy3.jpg">
+          <img src="Missy3.jpg" alt="Missy">
+        </a>
+        <p>Missy</p>
+        <a href="Missy4.jpg">
+          <img src="Missy4.jpg" alt="Missy">
+        </a>
+        <p>Missy</p>
+        <a href="MissyandSnowball.jpg">
+          <img src="MissyandSnowball.jpg" alt="Missy and Snowball">
+        </a>
+        <p>Missy and Snowball</p>
+        <a href="MissyandSusie.jpg">
+          <img src="MissyandSusie.jpg" alt="Missy and Susie">
+        </a>
+        <p>Missy and Susie</p>
+        <a href="Mypuppies.jpg"> 
+        <img src="Mypuppies.jpg" alt="My puppies">
+        </a>
+        <p>All 3 dogs relaxing</p>
+      </div>
+    </div>
+    <div id="reptiles-birds" class="gallery hidden">
+      <h3>Reptiles/Birds</h3>
+      <div class="sub-gallery">
+        <a href="Murphy.heic">
+          <img src="Murphy.heic" alt="Murphy">
+        </a>
+        <p>Murphy, my green anole</p>
+        <a href="Murphy0.heic">
+          <img src="Murphy0.heic" alt="Murphy">
+        </a>
+        <p>Murphy</p>
+        <a href="Murphy2.heic">
+          <img src="Murphy2.heic" alt="Murphy">
+        </a>
+        <p>Murphy</p>
+        <a href="Murphy3.heic">
+          <img src="Murphy3.heic" alt="Murphy">
+        </a>
+        <p>Murphy</p>
+        <a href="Nood.heic">
+          <img src="Nood.heic" alt="Noodle">
+        </a>
+        <p>Noodle, my leopard gecko</p>
+        <a href="Noodle.heic">
+          <img src="Noodle.heic" alt="Noodle">
+        </a>
+        <p>Noodle</p>
+        <a href="Noody.heic">
+          <img src="Noody.heic" alt="Noodle">
+        </a>
+        <p>Noodle</p>
+        <a href="Noodz.heic">
+          <img src="Noodz.heic" alt="Noodle">
+        </a>
+        <p>Noodle</p>
+        <a href="Pippin.jpg">
+          <img src="Pippin.jpg" alt="Pippin">
+        </a>
+        <p>Pippin, my coturnix quail</p>
+        <a href="Pippin0.heic">
+          <img src="Pippin0.heic" alt="Pippin">
+        </a>
+        <p>Pippin</p>
+        <a href="Pippin1.heic">
+          <img src="Pippin1.heic" alt="Pippin">
+        </a>
+        <p>Pippin</p>
+        <a href="Pippin2.heic">
+          <img src="Pippin2.heic" alt="Pippin">
+        </a>
+        <p>Pippin</p>
+        <a href="Pippin3.heic">
+          <img src="Pippin3.heic" alt="Pippin">
+        </a>
+        <p>Pippin</p>
+      </div>
+    </div>
+
+    <div id="invertebrates" class="gallery hidden">
+      <h3>Invertebrates</h3>
+      <div class="sub-gallery">
+        <a href="Colony.heic">
+          <img src="Colony.heic" alt="Roach Colony">
+        </a>
+        <p>Hissing roach colony</p>
+        <a href="Colony0.jpg">
+          <img src="Colony0.jpg" alt="Roach Colony">
+        </a>
+        <p>Hissing roach colony</p>
+        <a href="Colony1.jpg">
+          <img src="Colony1.jpg" alt="Roach Colony">
+        </a>
+        <p>Hissing roach colony</p>
+        <a href="Colony2.heic">
+          <img src="Colony2.heic" alt="Roach Colony">
+        </a>
+        <p>Hissing roach colony</p>
+        <a href="IsopodandMilli.jpg">
+          <img src="IsopodandMilli.jpg" alt="Isopods">
+        </a>
+        <p>Isopod colony with millipede</p>
+        <a href="Juice.jpg">
+          <img src="Juice.jpg" alt="Juice">
+        </a>
+        <p>Juice, my American giant millipede</p>
+        <a href="Juice0.jpg">
+          <img src="Juice0.jpg" alt="Juice">
+        </a> 
+        <p>Juice</p>
+        <a href="Juice1.heic">
+          <img src="Juice1.heic" alt="Juice">
+        </a>
+        <p>Juice</p>
+        <a href="Juice2.heic">
+          <img src="Juice2.heic" alt="Juice">
+        </a>
+        <p>Juice</p>
+        <a href="Roach0.heic">
+          <img src="Roach0.heic" alt="Roach">
+        </a>
+        <p>Hissing roach</p>
+        <a href="Roach1.heic">
+          <img src="Roach1.heic" alt="Roach">
+        </a>
+        <p>Hissing roach</p>
+        <a href="Roach3.heic">
+          <img src="Roach3.heic" alt="Roach">
+        </a>
+        <p>Hissing roach</p>
+        <a href="Roach4.heic">
+          <img src="Roach4.heic" alt="Roach">
+        </a>
+        <p>Hissing roach</p>
+        <a href="Roach5.heic">
+          <img src="Roach5.heic" alt="Roach">
+        </a>
+        <p>Adult male orange head roach</p>
+        <a href="Roach6.heic">
+          <img src="Roach6.heic" alt="Roach">
+        </a>
+        <p>Adult male orange head roach</p>
+        <a href="Roach7.heic">
+          <img src="Roach7.heic" alt="Roach">
+        </a>
+        <p>Hissing roach</p>
+        <a href="Roach8.heic">
+          <img src="Roach8.heic" alt="Roach">
+        </a>
+        <p>Adult male orange head roach</p>
+        <a href="Roach9.heic">
+          <img src="Roach9.heic" alt="Roach">
+        </a>
+        <p>Adult male dubia roach</p>
+        <a href="Roach10.heic">
+          <img src="Roach10.heic" alt="Roach">
+        </a>
+        <p>Adult male dubia roach</p>
+        <a href="Roaches.heic">
+          <img src="Roaches.heic" alt="Roach">
+        </a>
+        <p>Roach colony</p>
+        <a href="Spoody.heic">
+          <img src="Spoody.heic" alt="Spoody">
+        </a>
+        <p>Spoody, my curly hair tarantula</p>
+        <a href="Spoody0.jpg">
+          <img src="Spoody0.jpg" alt="Spoody">
+        </a>
+        <p>Spoody</p>
+        <a href="Spuppy.heic">
+          <img src="Spuppy.heic" alt="Spuppy">
+        </a>
+        <p>Spuppy, my pumpkin patch tarantula</p>
+        <a href="Spuppy0.heic">
+          <img src="Spuppy0.heic" alt="Spuppy">
+        </a>
+        <p>Spuppy</p>
+      </div>
+    </div>
+    <div id="honorable-mentions" class="gallery hidden">
+      <h3>Honorable Mentions</h3>
+      <p>Here are some images of my little friends who have passed on. Even though they are no longer here, I wanted to include them to honor their lives.</p>
+      <div class="sub-gallery">
+        <a href="Sylviaandme.png">
+          <img src="Sylviaandme.png" alt="Sylvia and Me">
+        </a>
+        <p>Sylvia, my first Madagascan hissing roach</p>
+        <a href="Tomcat.jpg">
+          <img src="Tomcat.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat, my angel cat</p>
+        <a href="Tomcat0.jpg">
+          <img src="Tomcat0.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat1.jpg">
+          <img src="Tomcat1.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat2.jpg">
+          <img src="Tomcat2.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat3.jpg">
+          <img src="Tomcat3.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat4.jpg">
+          <img src="Tomcat4.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat5.jpg">
+          <img src="Tomcat5.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat6.jpg">
+          <img src="Tomcat6.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat7.jpg">
+          <img src="Tomcat7.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat8.jpg">
+          <img src="Tomcat8.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomcat9.jpg">
+          <img src="Tomcat9.jpg" alt="Tomcat">
+        </a>
+        <p>Tomcat</p>
+        <a href="Tomtom.heic">
+          <img src="Tomtom.heic" alt="Tomtom">
+        </a>
+        <p>Tomcat</p>
+        <a href="Dumpling.heic">
+          <img src="Dumpling.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling, my sweet pacman frog</p>
+        <a href="Dumpling0.heic">
+          <img src="Dumpling0.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling1.heic">
+          <img src="Dumpling1.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling2.heic">
+          <img src="Dumpling2.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling3.heic">
+          <img src="Dumpling3.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling4.heic">
+          <img src="Dumpling4.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling5.heic">
+          <img src="Dumpling5.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Dumpling6.heic">
+          <img src="Dumpling6.heic" alt="Dumpling">
+        </a>
+        <p>Dumpling</p>
+        <a href="Kiwi.jpg">
+          <img src="Kiwi.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi, my regal jumping spider</p>
+        <a href="Kiwi0.webp">
+          <img src="Kiwi0.webp" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi1.jpg">
+          <img src="Kiwi1.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi2.jpg">
+          <img src="Kiwi2.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi3.jpg">
+          <img src="Kiwi3.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi4.jpg">
+          <img src="Kiwi4.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi5.jpg">
+          <img src="Kiwi5.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Kiwi6.jpg">
+          <img src="Kiwi6.jpg" alt="Kiwi">
+        </a>
+        <p>Kiwi</p>
+        <a href="Louie.png">
+          <img src="Louie.png" alt="Louie">
+        </a>
+        <p>Louie, my smokey oak millipede</p>
+        <a href="Louieandme.png">
+          <img src="Louieandme.png" alt="Louie and Me">
+        </a>
+        <p>Louie and me</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
